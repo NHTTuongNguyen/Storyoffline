@@ -1,0 +1,13 @@
+<resources>
+    <!-- extend the base theme to add styles available only with API level 21+ -->
+    <style name="AppHome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#673AB7</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayoutRedStory"
+    tools:context=".Activity.ReadStoryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:visibility="gone"
+                android:id="@+id/appBarLayout_TestLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+                <androidx.appcompat.widget.Toolbar
+                    app:title="Đọc Truyện"
+                    android:id="@+id/testToolBarId"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/white"
+                    android:theme="@style/ToolbarColoredBackArrow"
+                    app:titleTextColor="@color/colorGreen"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fr_container_test"
+        android:layout_width="match_parent"
+        android:layout_below="@id/appBarLayout_TestLayout"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/linearBottom"
+        />
+    <LinearLayout
+        android:id="@+id/linearBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtBack"
+            android:textSize="@dimen/dimen_20"
+            android:layout_margin="@dimen/dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+        <TextView
+            android:textSize="@dimen/dimen_20"
+            android:id="@+id/txtCurrentNumber"
+            android:layout_margin="@dimen/dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <TextView
+            android:textSize="@dimen/dimen_20"
+
+            android:layout_margin="@dimen/dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+
+        <TextView
+            android:textSize="@dimen/dimen_20"
+            android:id="@+id/txtTotalNumber"
+            android:layout_margin="@dimen/dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <TextView
+            android:textSize="@dimen/dimen_20"
+            android:id="@+id/txtNext"
+            android:layout_margin="@dimen/dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </LinearLayout>
+</RelativeLayout>

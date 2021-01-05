@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ProjectAppDocTruyen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="nametest">Aircraft engines, motorcycles, and automobiles would be BMWs main products until World War II. During the war, against the wishes of its director Franz Josef Popp[citation needed], BMW concentrated on aircraft engine production using forced labor consisting primarily of prisoners from concentration camps, with motorcycles as a side line and automobile manufacture ceased altogether. BMWs factories were heavily bombed during the war and its remaining West German facilities were banned from producing motor vehicles or aircraft after the war. Again, the company survived by making pots, pans, and bicycles. In 1948, BMW restarted motorcycle production. BMW resumed car production in Bavaria in 1952 with the BMW 501 luxury saloon. The range of cars was expanded in 1955, through the production of the cheaper Isetta microcar under licence. Slow sales of luxury cars and small profit margins from microcars meant BMW was in serious financial trouble and in 1959 the company was nearly taken over by rival Daimler-Benz. A large investment in BMW by Herbert Quandt and Harald Quandt resulted in the company surviving as a separate entity. The BMW 700 was successful and assisted in the companys recovery The 1962 introduction of the BMW New Class compact sedans was the beginning of BMWs reputation as a leading manufacturer of sport-oriented cars. Throughout the 1960s, BMW expanded its range by adding coupe and luxury sedan models. The BMW 5 Series mid-size sedan range was introduced in 1972, followed by the BMW 3 Series compact sedans in 1975, the BMW 6 Series luxury coupes in 1976 and the BMW 7 Series large luxury sedans in 1978.The first mass-produced turbocharged petrol engine was introduced in 2006, with most engines switching over to turbocharging over the following decade. The first hybrid BMW was the 2010 BMW ActiveHybrid 7, and BMWs first electric car was the BMW i3 city car, which was released in 2013. After many years of establishing a reputation for sporting rear-wheel drive cars, BMWs first front-wheel drive car was the 2014 BMW 2 Series Active Tourer multi-purpose vehicle (MPV). </string>
+    <string name="test_content">- Tinh tế, ABO văn, quân lữ, vườn trường, sư sinh, thanh mai trúc mã, sinh tử, 1×1, cường cường, thâm tình trung khuyển công x đơn thuần trì độn thụ, công sủng thụ, ấm áp vô ngược, HE</string>
+    <string name="txt_search_name">Vui lòng tìm kiếm từ khóa hợp lý </string>
+    <string name="network_error_text_msg">Seems like there is an issue with the network connectivity.\n\nCheck whether the Airplane mode is Active, [ic_airplanemode_active_primary] may be seen in the above status bar. Turn this OFF if it is seen.\n\nValidate the Network settings and visit us back once done.</string>
+    <string name="network_error_cancel_button_text">Cancel</string>
+    <string name="network_error_settings_button_text">Check Settings</string>
+    <string name="xem_gan_day">Xem gần đây</string>
+    <string name="btnReadStory">Đọc Truyện</string>
+    <string name="noDataHistory">"Bạn chưa xem truyện nào "</string>
+    <string name="chapterWatched">Các Chương Vừa Xem:</string>
+    <string name="url_Security">http://simbo.xyz/privacy.html</string>
+    <string name="Ads_appId">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="Personal">Cá Nhân</string>
+
+</resources>

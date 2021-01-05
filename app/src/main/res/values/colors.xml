@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#16a085</color>
+    <color name="colorGreen">#0B8B10</color>
+    <color name="colorBlueWhite">#c5cae9</color>
+    <color name="colorRed">#E1180A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorYellowReadStory">#fffde7</color>
+
+    <color name="colorDefaultButton">#CFCFCF</color>
+    <color name="colorNau">#795548</color>
+
+    <color name="colorTextLight">#808080</color>
+
+
+
+</resources>

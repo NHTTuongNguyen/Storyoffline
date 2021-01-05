@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HistoryFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_History"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_Truyen"
+            app:title="Lịch Sử Trên Thiết Bị "
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white"
+            android:theme="@style/ToolbarColoredBackArrow"
+            app:titleTextColor="@color/colorGreen"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_History"
+        android:layout_below="@id/toolbar_History"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xem_gan_day"/>
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/colorGreen"
+            android:text="@string/noDataHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtNodataHistory"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="@dimen/dimen_10"
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerView_Docganday"
+                android:layout_height="wrap_content"/>
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:layout_marginTop="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:layout_below="@id/linearLayout_History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/template_HistoryFragment"
+            app:gnt_template_type="@layout/gnt_small_template_view"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

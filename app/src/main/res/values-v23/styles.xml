@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppHome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#eeeeee</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+
+    </style>
+
+
+</resources>

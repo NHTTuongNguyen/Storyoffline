@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgStoryWatched"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            app:civ_border_color="#FF000000" />
+
+
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@color/colorGreen"
+            android:id="@+id/txt_name_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgStoryWatched"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txt_chuong"
+            android:layout_below="@id/txt_name_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgStoryWatched"
+            android:text="154 chương" />
+        <TextView
+            android:id="@+id/tv_vitri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_chuong"
+            android:layout_toRightOf="@+id/imgStoryWatched"
+            android:text="Đam Mỹ" />
+    </RelativeLayout>
+</LinearLayout>
